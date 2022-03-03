@@ -1,0 +1,148 @@
+.header
+{
+	float: left;
+	clear: both;
+	width: 100%;
+	background-image: url("../images/brownie-cake-chocolate-45202.jpg");
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	padding: 200px 0px;
+}
+/*sec 2 started*/
+.sec2
+{
+	float: left;
+	clear: both;
+	width: 100%;
+	background-color: white;
+	background-size: 100% 100%;
+	padding: 100px 0px;
+}
+.icn
+{
+	color: rgba(255,176,59,0.9);
+	float: left;
+	clear: both;
+	margin-top: 5px;
+	margin-right: 5px;
+}
+/*sec 2 over*/
+/*sec 3 started*/
+.sec3
+{
+	float: left;
+	clear: both;
+	width: 100%;
+	background-image: url("../images/appetizer-dark-delicious-326279.jpg");
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	padding: 150px 0px;
+}
+.bg
+{
+	/*border:1px solid yellow;	*/
+	background-color: rgba(0,0,0,0.5);
+	padding: 40px 30px;
+}
+/*sec 3 over*/
+/*sec 4 started*/
+.sec4
+{
+	float: left;
+	clear: both;
+	width: 100%;
+	background-color: white;
+	background-size: 100% 100%;
+	padding: 100px 0px;
+}
+.con
+{
+	background-color: rgba(254,204,23,0.9);
+	padding: 20px 20px;
+	border-radius: 80px; 
+	font-size: 25px;
+	color: white;
+	float: left;
+	clear: both;
+	transition: 0.5s;
+}
+.con:hover
+{
+	color: black;
+	transform: rotate(30deg);
+}
+.btn
+{
+	transition: 0.5s !important;
+}
+.btn:hover
+{
+	color: white;
+}
+.img-fluid
+{
+	transition: 0.5s;
+}
+.img-fluid:hover
+{
+	transform: scale(1.1);
+}
+.inp
+{
+	border-bottom: 2px solid;
+}
+/*sec 5 started*/
+.sec5
+{
+	float: left;
+	clear: both;
+	width: 100%;
+	background-color: black;
+	background-size: 100% 100%;
+	padding: 100px 0px;
+}
+.contact-icn
+{
+	color: white;
+	font-size: 25px;
+	margin-left: 20px;	
+	transition: 0.5s;
+	margin-top: 20px;
+}
+.contact-icn:hover
+{
+	transform: scale(1.1);
+	background-color:rgba(255,176,59,0.9);
+	border-radius: 100px;
+	padding: 20px 20px; 
+}
+/*sec 5 over*/
+@media screen and (max-width: 408px)
+{
+	.display-2
+	{
+		font-size: 20px !important;
+	}
+	.header
+	{
+		padding: 100px 0px;
+	}
+	.txt
+	{
+		font-size: 50px !important;
+	}
+	.h2
+	{
+		font-size: 20px;
+	}
+	.mrg
+	{
+		margin-top: 50px;
+	}
+	.txts
+	{
+		font-size: 13px;
+	}
+}
